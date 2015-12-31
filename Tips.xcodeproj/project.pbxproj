@@ -12,8 +12,6 @@
 		7F93C57E1C34C68900D630C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F93C57C1C34C68900D630C3 /* Main.storyboard */; };
 		7F93C5801C34C68900D630C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F93C57F1C34C68900D630C3 /* Assets.xcassets */; };
 		7F93C5831C34C68900D630C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F93C5811C34C68900D630C3 /* LaunchScreen.storyboard */; };
-		7F93C58E1C34C68A00D630C3 /* TipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93C58D1C34C68A00D630C3 /* TipsTests.swift */; };
-		7F93C5991C34C68A00D630C3 /* TipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93C5981C34C68A00D630C3 /* TipsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		7F93C5821C34C68900D630C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F93C5841C34C68A00D630C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F93C5891C34C68A00D630C3 /* TipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F93C58D1C34C68A00D630C3 /* TipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTests.swift; sourceTree = "<group>"; };
-		7F93C58F1C34C68A00D630C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F93C5941C34C68A00D630C3 /* TipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F93C5981C34C68A00D630C3 /* TipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsUITests.swift; sourceTree = "<group>"; };
-		7F93C59A1C34C68A00D630C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				7F93C5771C34C68900D630C3 /* Tips */,
-				7F93C58C1C34C68A00D630C3 /* TipsTests */,
-				7F93C5971C34C68A00D630C3 /* TipsUITests */,
 				7F93C5761C34C68900D630C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				7F93C5841C34C68A00D630C3 /* Info.plist */,
 			);
 			path = Tips;
-			sourceTree = "<group>";
-		};
-		7F93C58C1C34C68A00D630C3 /* TipsTests */ = {
-			isa = PBXGroup;
-			children = (
-				7F93C58D1C34C68A00D630C3 /* TipsTests.swift */,
-				7F93C58F1C34C68A00D630C3 /* Info.plist */,
-			);
-			path = TipsTests;
-			sourceTree = "<group>";
-		};
-		7F93C5971C34C68A00D630C3 /* TipsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7F93C5981C34C68A00D630C3 /* TipsUITests.swift */,
-				7F93C59A1C34C68A00D630C3 /* Info.plist */,
-			);
-			path = TipsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F93C58E1C34C68A00D630C3 /* TipsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F93C5991C34C68A00D630C3 /* TipsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +454,7 @@
 				7F93C59F1C34C68A00D630C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F93C5A01C34C68A00D630C3 /* Build configuration list for PBXNativeTarget "TipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +463,7 @@
 				7F93C5A21C34C68A00D630C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F93C5A31C34C68A00D630C3 /* Build configuration list for PBXNativeTarget "TipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +472,7 @@
 				7F93C5A51C34C68A00D630C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
