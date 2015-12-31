@@ -2,7 +2,7 @@
 
 Tips is a tip calculator application for iOS.
 
-Submitted by:  Here**
+Submitted by: Julian Duodu
 
 Time spent: 6 hours spent in total
 
@@ -26,18 +26,17 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/gVVtbyv' title='Tips Video Walkthrough' width='' alt='Tips Video Walkthrough' />
+<img src='http://i.imgur.com/gVVtbyv' title='Tips Video Walkthrough' width='' alt='Tips Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Had some issues with installing a Mac OS onto a virtual machine that was up-to-date enough for me to download the most recent XCode 
-from the App Store. Besides that, there were no issues with implementing the basic tip calculator.
+Had some issues with installing a Mac OS onto a virtual machine that was up-to-date enough for me to download the most recent XCode from the App Store. Besides that, there were no issues with implementing the basic tip calculator.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2015 Julian Duodu
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
