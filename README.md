@@ -12,27 +12,27 @@ The following **required** functionality is complete:
 * [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
-* [ ] UI animations
+* [X] Settings page to change the default tip percentage.
+* [X] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] Added feature on settings page to allow for changes to default background color (Theme color) 
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/gVVtbyv.gif' title='Tips Video Walkthrough' width='' alt='Tips Video Walkthrough' />
+<img src='https://i.imgur.com/FHjQiki.gif' title='Tips Video Walkthrough' width='' alt='Tips Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Had some issues with installing a Mac OS onto a virtual machine that was up-to-date enough for me to download the most recent XCode from the App Store. Besides that, there were no issues with implementing the basic tip calculator.
+Had some issues with installing a Mac OS onto a virtual machine that was up-to-date enough for me to download the most recent XCode from the App Store. Besides that, there were no issues with implementing the basic tip calculator. Also struggled with implementing locale and currency information, so did not implement in final solution. 
 
 ## License
 
