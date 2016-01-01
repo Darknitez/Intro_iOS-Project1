@@ -12,6 +12,7 @@
 		7F93C57E1C34C68900D630C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F93C57C1C34C68900D630C3 /* Main.storyboard */; };
 		7F93C5801C34C68900D630C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F93C57F1C34C68900D630C3 /* Assets.xcassets */; };
 		7F93C5831C34C68900D630C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F93C5811C34C68900D630C3 /* LaunchScreen.storyboard */; };
+		7F93C5A71C35E2F300D630C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F93C5A61C35E2F300D630C3 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		7F93C5841C34C68A00D630C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F93C5891C34C68A00D630C3 /* TipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F93C5941C34C68A00D630C3 /* TipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F93C5A61C35E2F300D630C3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				7F93C5781C34C68900D630C3 /* AppDelegate.swift */,
 				7F93C57A1C34C68900D630C3 /* ViewController.swift */,
 				7F93C57C1C34C68900D630C3 /* Main.storyboard */,
+				7F93C5A61C35E2F300D630C3 /* SettingsViewController.swift */,
 				7F93C57F1C34C68900D630C3 /* Assets.xcassets */,
 				7F93C5811C34C68900D630C3 /* LaunchScreen.storyboard */,
 				7F93C5841C34C68A00D630C3 /* Info.plist */,
@@ -232,6 +235,7 @@
 			files = (
 				7F93C57B1C34C68900D630C3 /* ViewController.swift in Sources */,
 				7F93C5791C34C68900D630C3 /* AppDelegate.swift in Sources */,
+				7F93C5A71C35E2F300D630C3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
